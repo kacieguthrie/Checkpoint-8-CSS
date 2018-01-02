@@ -1,13 +1,16 @@
-body {
-    font-size: 14px;
+body
+  font-size: 14px;
 }
 
 nav {
-  background-color: yellow;
   height: 100px;
-  margin-top: -10px;
-  position: fixed;
   width: 100%;
+  position: fixed;
+}
+
+.example {
+  background-color: yellow;
+  text-align: center;
 }
 
 section {
@@ -22,9 +25,9 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align: center;
+  text-align: center
 }
-/***element styles***/
+
 h3 {
   font-size: 1.3em;
 }
@@ -34,8 +37,9 @@ h3 {
   height: 100px;
   margin 10px 0;
   width: 100%;
+  position: relative;
 }
 
 .red {
-  background-color: firebrick;
+  background-color: red;
 }
